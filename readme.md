@@ -54,10 +54,10 @@ EasyVR-modulet består af flere dele:
 - En mikrofon
 - En lille højtaler
 
-Et arduino shield er et board man sætter oven på sin arduino for at udvide dens funktionalitet. Shields bygges så de passer på et bestemt type board. I dette tilfælde er EasyVR-shieldet bygget til at passe på en arduino UNO eller boards med samme størrelse og layout, f.eks. sparkfun redboards. 
-Det smarte ved shields er at vi slipper for selv at skulle forbinde en komponent med vores arduino, som vi plejer at gøre gennem et breadboard eller ved at lodde dem direkte sammen. De er også utroligt nemme at bruge, da shieldet bare skal sættes ovenpå arduinoen og kun kan side på én måde. Det er altså næsten umuligt at gøre forkert.
+Et arduino shield er et board man sætter oven på sin arduino for at udvide dens funktionalitet. Shields bygges så de passer på et bestemt type board. I dette tilfælde er EasyVR-shieldet bygget til at passe på en arduino UNO eller boards med samme størrelse og layout, f.eks. sparkfun redboards.
+Det smarte ved shields er, at vi slipper for selv at skulle forbinde en komponent med vores arduino, som vi plejer at gøre gennem et breadboard eller ved at lodde dem direkte sammen. De er også utroligt nemme at bruge, da shieldet bare skal sættes ovenpå arduinoen og kun kan side på én måde. Det er altså næsten umuligt at gøre forkert.
 
-I dette tilfælde er shieldet to-delt og det er faktisk muligt at tage komponenten af, hvis du skulle have lyst til at anvende modulet med et andet board. Det er dog en anelse mere komplekst og uden for scopet af denne guide.    
+I dette tilfælde er shieldet to-delt og det er faktisk muligt at tage komponenten af, hvis du skulle have lyst til at anvende modulet med et andet board. Det er dog en anelse mere komplekst og uden for scope af denne tutorial.    
 
 
 ### Arduino kode
