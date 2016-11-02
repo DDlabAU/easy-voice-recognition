@@ -32,13 +32,13 @@ Vælg File → Examples → EasyVR → TestEasyVR og upload den store mængde ko
 
 ### Stemmetræning og Commander-softwaren
 
-Du bruger Commander-softwaren til at træne EasyVR-modulet og til at generere koden, der senere skal uploades gennem Arduinomiljøet.
+Du bruger Commander-softwaren til at træne EasyVR-modulet og til at generere koden, der senere skal uploades gennem Arduinomiljøet. 
+Du kan i princippet skrive al koden direkte i Arduinomiljøet, men det er uden for scope af denne tutorial.
 
 Det er ikke svært at kode de forskellige nøgleord ind gennem Commander-softwaren, men det kan være lidt svært at gennemskue, så derfor har vi lavet en video, der kan ses her:
 
 ___VIDEO HER___
 
-Du kan i princippet skrive al koden direkte i Arduinomiljøet, men det er uden for scope af denne tutorial.
 
 ### Bemærk
 Du skal indstille dig på at prøve forskellig afstande til mikrofonen, både i forhold til at indspille og registrere nøgleordene du vælger. For mere information angående mikrofonen kan du læse fra side 11 i manualen.
@@ -57,7 +57,7 @@ EasyVR-modulet består af flere dele:
 Et arduino shield er et board man sætter oven på sin arduino for at udvide dens funktionalitet. Shields bygges så de passer på et bestemt type board. I dette tilfælde er EasyVR-shieldet bygget til at passe på en arduino UNO eller boards med samme størrelse og layout, f.eks. sparkfun redboards.
 Det smarte ved shields er, at vi slipper for selv at skulle forbinde en komponent med vores arduino, som vi plejer at gøre gennem et breadboard eller ved at lodde dem direkte sammen. De er også utroligt nemme at bruge, da shieldet bare skal sættes ovenpå arduinoen og kun kan side på én måde. Det er altså næsten umuligt at gøre forkert.
 
-I dette tilfælde er shieldet to-delt og det er faktisk muligt at tage komponenten af, hvis du skulle have lyst til at anvende modulet med et andet board. Det er dog en anelse mere komplekst og uden for scope af denne tutorial.    
+I dette tilfælde er shieldet to-delt og det er faktisk muligt at tage komponenten af, hvis du skulle have lyst til at anvende modulet med et andet board. Det er dog en anelse mere komplekst og uden for scope af denne tutorial.
 
 
 ### Arduino kode
