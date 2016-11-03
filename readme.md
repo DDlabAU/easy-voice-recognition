@@ -14,10 +14,9 @@ Denne tutorial hjælper dig med at få easyVR op at køre og styre enkel elektro
 - Arduinomiljøet
 
 
-## Software
+## Voice Commander
 
-### Voice Commander
-#### Installation
+### Installation
 
 Der er en række forskellig software du skal have på plads, for at du kan bruge EasyVR:
 
@@ -26,13 +25,13 @@ Der er en række forskellig software du skal have på plads, for at du kan bruge
 - Installér derefter Arduinobiblioteket fra Arduinomiljøet (gå til Sketch → Include Library → Manage Libraries → søg efter EasyVR → Install).
 - Advarsel: Hvis du henter via SparkFun får du et ældre library (på det tidspunkt vi lavede guiden)
 
-#### Hul igennem
+### Hul igennem
 
 Før du går videre med træning skal du sikre at der er hul igennem til Arduinoen og EasyVR-modulet. Åbn derfor Arduinomiljøet, når du har installeret software fra pkt. 1.
 
 Vælg File → Examples → EasyVR → TestEasyVR og upload den store mængde kode til Arduinoen, som normalt. Dette er koden der ligger på Arduinoen (i modsætning til EasyVR-'shieldet', der indeholder lydklip, )
 
-#### Stemmetræning og Commander-softwaren
+### Stemmetræning og Commander-softwaren
 
 Du bruger Commander-softwaren til at træne EasyVR-modulet og til at generere koden, der senere skal uploades gennem Arduinomiljøet.
 Du kan i princippet skrive al koden direkte i Arduinomiljøet, men det er uden for scope af denne tutorial.
@@ -41,13 +40,13 @@ Det er ikke svært at kode de forskellige nøgleord ind gennem Commander-softwar
 
 ___VIDEO HER___
 
-#### Bemærk
+### Bemærk
 Du skal indstille dig på at prøve forskellig afstande til mikrofonen, både i forhold til at indspille og registrere nøgleordene du vælger. For mere information angående mikrofonen kan du læse fra side 11 i manualen.
 
-### Arduinokode
 
 
-## Hardware
+## Arduino
+### Kode
 
 ### Opsætning
 EasyVR-modulet består af flere dele: et shield, selve EasyVR-boardet, en mikrofon og en lille højtaler.
